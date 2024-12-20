@@ -1,4 +1,4 @@
-package Estrutura_sequencial.exercicios_sequencial;
+package Estrutura_sequencial.Exercicios;
 
 public class exercicio1 {
     public static void main(String[] args) {
