@@ -15,19 +15,19 @@ public class Aula3 {
                 dia = "Domingo";
                 break;
             case 2:
-                dia = "Segunda";
+                dia = "Segunda-feira!";
                 break;
             case 3:
-                dia = "Terceira";
+                dia = "Terça-feira!";
                 break;
             case 4:
-                dia = "Quarta";
+                dia = "Quarta-feira!";
                 break;
             case 5:
-                dia = "Quinta";
+                dia = "Quinta-feira!";
                 break;
             case 6:
-                dia = "Sexta";
+                dia = "Sexta-feira!";
                 break;
             case 7:
                 dia = "Sabado";

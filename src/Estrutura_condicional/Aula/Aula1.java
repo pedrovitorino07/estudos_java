@@ -14,6 +14,8 @@ public class Aula1 {
         // || = ou
         // && = e
         // ! = não/diferente
+        // if(condição){execução}
+        // else{execução}
         if (hora < 12) {
         System.out.println("Bom dia!");
         }
