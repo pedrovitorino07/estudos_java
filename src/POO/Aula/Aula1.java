@@ -1,6 +1,6 @@
 package POO.Aula;
 
-import POO.Entidades.Triangle;
+import POO.EntidadesAula.Triangle;
 import java.util.Scanner;
 import java.util.Locale;
 

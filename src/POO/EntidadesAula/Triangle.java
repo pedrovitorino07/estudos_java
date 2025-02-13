@@ -1,4 +1,4 @@
-package POO.Entidades;
+package POO.EntidadesAula;
 
 public class Triangle {
 
