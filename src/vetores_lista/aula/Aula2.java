@@ -1,6 +1,6 @@
-package vetores.aula;
+package vetores_lista.aula;
 
-import vetores.entities.product;
+import vetores_lista.entities.product;
 import java.util.Locale;
 import java.util.Scanner;
 

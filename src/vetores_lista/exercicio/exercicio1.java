@@ -1,4 +1,4 @@
-package vetores.exercicio;
+package vetores_lista.exercicio;
 
 import java.util.Locale;
 import java.util.Scanner;

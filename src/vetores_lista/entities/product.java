@@ -1,4 +1,4 @@
-package vetores.entities;
+package vetores_lista.entities;
 
 public class product {
 

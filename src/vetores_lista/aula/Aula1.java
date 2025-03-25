@@ -1,4 +1,4 @@
-package vetores.aula;
+package vetores_lista.aula;
 
 import java.util.Locale;
 import java.util.Scanner;

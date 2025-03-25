@@ -1,6 +1,6 @@
-package vetores.exercicio;
+package vetores_lista.exercicio;
 
-import vetores.entities.rent;
+import vetores_lista.entities.rent;
 
 import java.util.Locale;
 import java.util.Scanner;

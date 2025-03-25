@@ -1,15 +1,15 @@
-package vetores.exercicio;
+package vetores_lista.exercicio;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exercicio5 {
+public class exercicio2 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int n, posmaior;
-        double maior;
+        int n;
+        double soma, media;
 
         System.out.print("Quantos numeros voce vai digitar? ");
         n = sc.nextInt();
@@ -21,18 +21,21 @@ public class exercicio5 {
             vetor[i] = sc.nextDouble();
         }
 
-        maior = vetor[0];
-        posmaior = 0;
-
-        for (int i=1; i<n; i++) {
-            if (vetor[i] > maior) {
-                maior = vetor[i];
-                posmaior = i;
-            }
+        soma = 0;
+        for (int i=0; i<n; i++) {
+            soma = soma + vetor[i];
         }
 
-        System.out.printf("MAIOR VALOR = %.1f\n", maior);
-        System.out.printf("POSICAO DO MAIOR VALOR = %d\n", posmaior);
+        media = soma / n;
+
+        System.out.print("VALORES = ");
+
+        for (int i=0; i<n; i++) {
+            System.out.printf("%.1f  ", vetor[i]);
+        }
+
+        System.out.printf("\nSOMA = %.2f\n", soma);
+        System.out.printf("MEDIA = %.2f\n", media);
 
         sc.close();
     }
