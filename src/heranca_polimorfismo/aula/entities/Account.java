@@ -1,4 +1,4 @@
-package heranca.aula1.entities;
+package heranca_polimorfismo.aula.entities;
 
 public class Account {
 
@@ -6,7 +6,7 @@ public class Account {
     private String holder;
     protected Double balance;
 
-    public Account (){
+    public Account() {
     }
 
     public Account(Integer number, String holder, Double balance) {
@@ -23,10 +23,6 @@ public class Account {
         this.number = number;
     }
 
-    public Double getBalance() {
-        return balance;
-    }
-
     public String getHolder() {
         return holder;
     }
@@ -35,11 +31,15 @@ public class Account {
         this.holder = holder;
     }
 
-    public void withdraw(Double amount) {
-        this.balance -= amount;
+    public Double getBalance() {
+        return balance;
     }
 
-    public void deposit(Double amount) {
-        this.balance += amount;
+    public void withdraw(double amount) {
+        balance -= amount + 5.0;
+    }
+
+    public void deposit(double amount) {
+        balance += amount;
     }
 }

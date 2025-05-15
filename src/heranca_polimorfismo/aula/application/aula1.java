@@ -1,10 +1,10 @@
-package heranca.aula1.application;
+package heranca_polimorfismo.aula.application;
 
-import heranca.aula1.entities.Account;
-import heranca.aula1.entities.BusinessAccount;
-import heranca.aula1.entities.SavingsAccount;
+import heranca_polimorfismo.aula.entities.Account;
+import heranca_polimorfismo.aula.entities.BusinessAccount;
+import heranca_polimorfismo.aula.entities.SavingsAccount;
 
-public class Program {
+public class aula1 {
     public static void main(String[] args) {
 
         Account acc = new Account(1001, "Alex", 0.0);
@@ -21,7 +21,6 @@ public class Program {
         BusinessAccount acc4 = (BusinessAccount)acc2;
         acc4.loan(100.0);
 
-        // BusinessAccount acc5 = (BusinessAccount)acc3;
         if (acc3 instanceof BusinessAccount) {
             BusinessAccount acc5 = (BusinessAccount)acc3;
             acc5.loan(200.0);
