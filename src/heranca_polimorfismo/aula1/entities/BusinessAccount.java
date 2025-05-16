@@ -1,4 +1,4 @@
-package heranca_polimorfismo.aula.entities;
+package heranca_polimorfismo.aula1.entities;
 
 public class BusinessAccount extends Account{
 
