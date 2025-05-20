@@ -12,10 +12,10 @@ public class Reservation {
 
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
-    public Reservation(Date checkOut, Date checkIn, Integer roomNumber) {
-        this.checkOut = checkOut;
-        this.checkIn = checkIn;
+    public Reservation(Integer roomNumber, Date checkIn ,Date checkOut) {
         this.roomNumber = roomNumber;
+        this.checkIn = checkIn;
+        this.checkOut = checkOut;
     }
 
     public Integer getRoomNumber() {
