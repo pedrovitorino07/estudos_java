@@ -1,6 +1,6 @@
 package interfaces.solucao1.services;
 
-public class BrazilTaxService {
+public class BrazilTaxService implements TaxService{
 
     public double tax(double amount){
         if (amount <= 100) {
