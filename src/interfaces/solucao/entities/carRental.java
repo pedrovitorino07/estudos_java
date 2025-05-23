@@ -1,4 +1,4 @@
-package interfaces.solucao1.entities;
+package interfaces.solucao.entities;
 
 import java.time.LocalDateTime;
 

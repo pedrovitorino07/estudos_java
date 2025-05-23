@@ -1,4 +1,4 @@
-package interfaces.solucao1.services;
+package interfaces.solucao.services;
 
 public interface TaxService {
 

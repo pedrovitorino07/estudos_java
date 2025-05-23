@@ -1,9 +1,9 @@
-package interfaces.solucao1.aplication;
+package interfaces.solucao.aplication;
 
-import interfaces.solucao1.entities.carRental;
-import interfaces.solucao1.entities.vehicle;
-import interfaces.solucao1.services.BrazilTaxService;
-import interfaces.solucao1.services.RentalService;
+import interfaces.solucao.entities.carRental;
+import interfaces.solucao.entities.vehicle;
+import interfaces.solucao.services.BrazilTaxService;
+import interfaces.solucao.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

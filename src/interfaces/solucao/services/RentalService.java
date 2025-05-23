@@ -1,7 +1,7 @@
-package interfaces.solucao1.services;
+package interfaces.solucao.services;
 
-import interfaces.solucao1.entities.carRental;
-import interfaces.solucao1.entities.invoice;
+import interfaces.solucao.entities.carRental;
+import interfaces.solucao.entities.invoice;
 
 import java.time.Duration;
 
