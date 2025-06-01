@@ -2,7 +2,7 @@ package funcional_lambda.aula2;
 
 import java.util.Arrays;
 
-public class Program {
+public class ex1 {
 
     public static int globalValue = 10;
 
